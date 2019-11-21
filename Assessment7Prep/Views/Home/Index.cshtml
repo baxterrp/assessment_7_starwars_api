@@ -1,0 +1,10 @@
+﻿@model Assessment7Prep.Models.StarWarsFilmsViewModel
+
+<ul>
+@foreach(var film in Model.Films)
+{
+    <li>
+        @film.Title
+    </li>
+}
+</ul>
